@@ -4,7 +4,7 @@ class Model():
     def __init__(self,cmd): #cmd = array of string
         self.command = "deBGA" 
         if self.launched:
-            return "ERROR"
+            pass
         else:
            for i in cmd:
                 self.command=self.command+ " " +i
