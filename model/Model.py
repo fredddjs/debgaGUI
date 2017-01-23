@@ -14,6 +14,6 @@ class Model():
     
     def launched(self): #test if command already launched, return true if running
         launch=call("ps aux |grep "+self.command)#launch contains return code
-        if launch !="0":
+        if launch =="0":
             return False
         return True
