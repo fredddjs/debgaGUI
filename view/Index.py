@@ -80,7 +80,6 @@ class Index(gtk.HBox):
                 #Add boxes to the Index box
                 self.pack_start(main, True, True, 10)
                 self.pack_start(process, True, True, 10)
-                self.add(separator)
                 self.pack_start(run, True, True, 10) 
                 self.add(separator)
                 self.pack_start(option, True, True, 10)
